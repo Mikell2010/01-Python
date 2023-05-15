@@ -18,9 +18,9 @@ for i in range(1,101):
 
 #Whoa. Es un gran idiota: agrega los enteros impares del 0 al 500,000, e imprime la suma final.
 sum = 0
-for i in range(0, 500001, 3):
+for i in range(1, 500001, 2):
     sum += i
-print("la suma de los enteros impares del 0 al 500,000 es:", sum)
+print(sum) #cambiar en github aca esta bien
 
 #Cuenta regresiva de a 4: imprime números positivos comenzando desde el 2018, en cuenta regresiva de 4 en 4.
 for i in range(2018, 0, -4):
